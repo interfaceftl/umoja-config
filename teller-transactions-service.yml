@@ -39,7 +39,9 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     hikari:
       maximum-pool-size: 10
-      max-lifetime: 600000
+      max-lifetime: 1800000
+      connectionTimeout: 30000
+      idleTimeout: 600000
     
 consumer:
  rpcGetAccountBalanceQueue: rpcGetAccountBalanceQueue
