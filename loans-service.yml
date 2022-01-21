@@ -31,9 +31,9 @@ spring:
     username: ${MYSQL_USER}
     password: ${MYSQL_USER_PASSWORD}
     driverClassName: com.mysql.cj.jdbc.Driver
-    hikari:
-      minimum-idle: 2
-      idle-timeout: 40000
-      maximum-pool-size: 6
-      max-lifetime: 900000
-      connectionTimeout: 30000
+#     hikari:
+#       minimum-idle: 2
+#       idle-timeout: 40000
+#       maximum-pool-size: 6
+#       max-lifetime: 900000
+#       connectionTimeout: 30000
